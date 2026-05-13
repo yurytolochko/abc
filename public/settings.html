@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Настройки — Тренажёр чтения</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Настройки</h1>
+    <a href="/">К тренажёру</a>
+  </header>
+  <main>
+    <div class="settings">
+      <h2>Какие слоги тренируем?</h2>
+      <p class="lead">Отметь категории — слоги из них будут показываться случайно по 5 штук.</p>
+      <div class="category-list" id="categoryList"></div>
+      <div class="actions">
+        <button class="btn-primary" id="saveBtn">Сохранить</button>
+        <button class="btn-secondary" id="selectAllBtn">Выбрать все</button>
+        <button class="btn-secondary" id="clearBtn">Очистить</button>
+        <span class="saved-note" id="savedNote">✓ Сохранено</span>
+      </div>
+    </div>
+  </main>
+  <script src="/syllables.js"></script>
+  <script src="/settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "abc-reader",
+  "version": "1.0.0",
+  "description": "Тренажёр быстрого чтения слогов для детей",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
